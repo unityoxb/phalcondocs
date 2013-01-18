@@ -3,7 +3,7 @@
 :doc:`Phalcon\\Loader <../api/Phalcon_Loader>` 这个组件允许你根据预定义规则自动加载项目中的类文件。
 此组件采用C语言编写，在读取和解析PHP文件方面，使用了最低的性能开销。
 
-此组件功能是基于PHP自身的 `autoloading classes`_ 实现的。如果在任何代码部分未找到类，那么它将尝试使用特殊的处理加载它,:doc:`Phalcon\\Loader <../api/Phalcon_Loader>` 就是用于处理这种任务的。加载类文件采用按需加载的方式，只有需要某个类文件时，才会进行加载及文件读取。这种技术被称为延时初始化( `lazy initialization`_ )。
+此组件功能是基于PHP自身的 `autoloading classes`_ 实现的。如果在任何代码部分未找到类，那么它将尝试使用特殊的处理加载它, :doc:`Phalcon\\Loader <../api/Phalcon_Loader>` 就是用于处理这种任务的。加载类文件采用按需加载的方式，只有需要某个类文件时，才会进行加载及文件读取。这种技术被称为延时初始化( `lazy initialization`_ )。
 
 使用此组件，你可以从其他项目或vendors(不知道是什么，应该指的是其他服务器)加载文件，autoloader 采用 `PSR-0 <https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md>`_ 标准。
 

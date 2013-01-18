@@ -224,7 +224,7 @@ find()和findFirst()这两个方法都接收一个关联数组作为检索条件
 
 模型数据集(Model Resultsets)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-findFirst()方法直接返回一个类的实例对象(查询有数据返回的时候)，find()方法则返回:doc:`Phalcon\\Mvc\\Model\\Resultset\\Simple <../api/Phalcon_Mvc_Model_Resultset_Simple>` 的一个实例对象，这个对象是一个封装了所有功能的结果集，比如像数据遍历，寻找特定的数据记录，计数等等。
+findFirst()方法直接返回一个类的实例对象(查询有数据返回的时候)，find()方法则返回 :doc:`Phalcon\\Mvc\\Model\\Resultset\\Simple <../api/Phalcon_Mvc_Model_Resultset_Simple>` 的一个实例对象，这个对象是一个封装了所有功能的结果集，比如像数据遍历，寻找特定的数据记录，计数等等。
 
 这些对象比标准数组更为强大，最大的优点之一是  :doc:`Phalcon\\Mvc\\Model\\Resultset <../api/Phalcon_Mvc_Model_Resultset>` 在任何时候它在内存中只保存一条记录，这极大的优化了内存管理，特别是处理大量数据的时候。
 
@@ -788,7 +788,7 @@ Phalcon提供了一个组件缓存任何类型的数据，我们下面将介绍�
         //...
     }
 
-缓存的KEY是通过 :doc:`Phalcon\\Mvc\\Model <../api/Phalcon_Mvc_Model>` 自动生成的，而且问题以"phc"为前辍，这将有助于识别此类缓存KEY是与 :doc:`Phalcon\\Mvc\\Model <../api/Phalcon_Mvc_Model>` 相关的：
+缓存的KEY是通过 :doc:`Phalcon\\Mvc\\Model <../api/Phalcon_Mvc_Model>` 自动生成的，而且以"phc"为前辍，这将有助于识别此类缓存KEY是与 :doc:`Phalcon\\Mvc\\Model <../api/Phalcon_Mvc_Model>` 相关的：
 
 .. code-block:: php
 
