@@ -1,12 +1,13 @@
 安装
 ============
 
-PHP extensions require a slightly different installation method to a traditional php-based library or framework. You can either download a binary package for the system of your choice or build it from the sources.
+PHP扩展到传统的基于php的库或框架需要一个稍微不同的安装方法。你可以下载一个与您的操作系统匹配的二进制包或从源来构建。
 
-During the last few months, we have extensively researched PHP's behavior, investigating areas for significant optimizations (big or small). Through understanding of the Zend Engine, we managed to remove unecessary validations, compacted code, performed optimizations and generated low-level solutions so as to achieve maximum performance from Phalcon.
+在过去的几个月中，我们已经广泛地研究了PHP的行为，为显着的优化（大或小）进行研究（investigating areas for significant optimizations (big or small)）。通过对Zend引擎的理解，我们设法消除不必要的验证，压缩代码，进行优化和在底层提供解决方案，从而使Phalcon达到最大性能。
 
 .. highlights::
-   Phalcon compiles from PHP 5.3.1, but due to old PHP bugs causing memory leaks, we highly recommend you to use at least PHP 5.3.11 or greater.
+   Phalcon编译自PHP5.3.1，但由于原有的PHP错误会导致内存泄漏，我们强烈建议您至少使用PHP5.3.11或更高。
+
 
 Windows
 -------
