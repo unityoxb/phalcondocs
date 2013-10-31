@@ -5,7 +5,7 @@
 
 Tasks
 -----
-Tasks are similar to controllers, on them can be implemented
+Tasks和controllers类似, 也可以实例化。
 
 .. code-block:: php
 
